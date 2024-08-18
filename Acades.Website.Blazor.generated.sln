@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acades.Website.Blazor", "Acades.Website.Blazor.csproj", "{6DB4EC5C-8967-40DF-BDB7-9DF4B1E9D35E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DB4EC5C-8967-40DF-BDB7-9DF4B1E9D35E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB4EC5C-8967-40DF-BDB7-9DF4B1E9D35E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB4EC5C-8967-40DF-BDB7-9DF4B1E9D35E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB4EC5C-8967-40DF-BDB7-9DF4B1E9D35E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BE22733-929A-42F5-9336-6B6ABDBFED34}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container">
+            <div class="view overlay nav_zoom">
+                <NavLink class="navbar-brand" href="/" Match="NavLinkMatch.All">
+                    <img src="/images/logo_acades_header.png" title="Home" class="logo img-responsive img-fluid nav_zoom" />
+                </NavLink>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle navigation" [attr.aria-expanded]="isExpanded" (click)="toggle()">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" [ngClass]="{ show: isExpanded }">
+                <ul class="navbar-nav flex-grow">
+                    <li class="nav-item" [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
+                        <NavLink class="nav-link text-dark" href="/" Match="NavLinkMatch.All"> Home</NavLink>
+                    </li>
+                    <li class="nav-item" [routerLinkActive]="['link-active']">
+                        <NavLink class="nav-link text-dark" href="/about-us">Quem Somos</NavLink>
+                    </li>
+                    <li class="nav-item" [routerLinkActive]="['link-active']">
+                        <NavLink class="nav-link text-dark" href="/services">Serviços</NavLink>
+                    </li>
+                    <li class="nav-item" [routerLinkActive]="['link-active']">
+                        <NavLink class="nav-link text-dark" href="/user-cases">Cases</NavLink>
+                    </li>
+                    <li class="nav-item" [routerLinkActive]="['link-active']">
+                        <NavLink class="nav-link text-dark" href="/carrer">Carreira</NavLink>
+                    </li>
+                    <li class="nav-item" [routerLinkActive]="['link-active']">
+                        <NavLink class="nav-link text-dark" href="/contact-us">Contato</NavLink>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
